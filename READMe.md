@@ -158,27 +158,28 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 
 ## 🛠 Tech Stack
 
-┌─────────────────────────────────────────────────────────┐
-│ CORE TECHNOLOGIES │
-├─────────────────────────────────────────────────────────┤
-│ 🐍 Python 3.8+ │ Main programming language │
-│ 🔥 PyTorch │ Deep learning framework │
-│ 📊 Streamlit │ Real-time dashboard │
-│ 📈 Plotly │ Interactive visualizations │
-├─────────────────────────────────────────────────────────┤
-│ AUDIO PROCESSING │
-├─────────────────────────────────────────────────────────┤
-│ 🎵 Librosa │ Audio feature extraction │
-│ 🎤 SoundDevice │ Real-time audio capture │
-│ 📁 SoundFile │ Audio file I/O │
-│ 🔇 NoiseReduce │ Noise suppression │
-├─────────────────────────────────────────────────────────┤
-│ MACHINE LEARNING │
-├─────────────────────────────────────────────────────────┤
-│ 📊 Scikit-learn │ ML utilities │
-│ 🔢 NumPy │ Numerical computing │
-│ 📋 Pandas │ Data manipulation │
-└─────────────────────────────────────────────────────────┘
+### Core Technologies
+| Technology | Purpose |
+|------------|---------|
+| **Python 3.8+** | Main programming language |
+| **PyTorch** | Deep learning framework |
+| **Streamlit** | Real-time dashboard |
+| **Plotly** | Interactive visualizations |
+
+### Audio Processing
+| Technology | Purpose |
+|------------|---------|
+| **Librosa** | Audio feature extraction |
+| **SoundDevice** | Real-time audio capture |
+| **SoundFile** | Audio file I/O |
+| **NoiseReduce** | Noise suppression |
+
+### Machine Learning & Data
+| Technology | Purpose |
+|------------|---------|
+| **Scikit-learn** | ML utilities |
+| **NumPy** | Numerical computing |
+| **Pandas** | Data manipulation |
 
 ---
 
