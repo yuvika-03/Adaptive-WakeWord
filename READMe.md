@@ -4,19 +4,11 @@
 
 ### Personalized • Secure • Speaker-Aware • Robust
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-orange.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
-
 **A real-time voice authentication system combining custom wake word detection with speaker verification for secure and personalized access.**
 
 </div>
 
 ---
-
-## 📸 Dashboard Preview
 
 <div align="center">
   <img src="dashboard_preview.png" alt="Adaptive WakeWord Dashboard" width="800"/>
@@ -53,10 +45,6 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 | 👤 **Speaker Verification** | Similarity score and match status |
 | 🔓 **Access Status** | Visual grant/deny indicator |
 | 📈 **Historical Trends** | Confidence tracking over time |
-
-![Dashboard](dashboard_preview.png)
-
-*Figure 1: Adaptive WakeWord Real-Time Dashboard*
 
 </div>
 
