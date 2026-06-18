@@ -1,4 +1,4 @@
-# 🎤 Adaptive WakeWord
+# Adaptive WakeWord
 
 <div align="center">
 
@@ -18,35 +18,20 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Conventional wake words such as **"Hey Google"** and **"Alexa"** can be activated by anyone who speaks the trigger phrase, making them vulnerable to unauthorized access and replay attacks.
 
 **Adaptive WakeWord** introduces a personalized authentication framework where access is granted only when:
 
-✅ The correct wake word is detected  
-✅ The speaker matches the enrolled user  
+- The correct wake word is detected  
+- The speaker matches the enrolled user  
 
 This creates a more secure and intelligent voice interface for edge AI applications, combining **keyword detection** with **speaker verification** for true multi-factor voice authentication.
 
 ---
 
-## 📸 Dashboard Preview
-
-<div align="center">
-
-### Real-Time Authentication Dashboard
-
-| Component | Description |
-|-----------|-------------|
-| 🎵 **Live Waveform** | Real-time audio signal visualization |
-| 📊 **Live Spectrogram** | Log-Mel spectrogram display |
-| 🔑 **Keyword Detection** | Confidence score and status |
-| 👤 **Speaker Verification** | Similarity score and match status |
-| 🔓 **Access Status** | Visual grant/deny indicator |
-| 📈 **Historical Trends** | Confidence tracking over time |
-
-</div>
+## Dashboard Preview
 
 ### Dashboard Features
 
@@ -64,19 +49,19 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### Core Features
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🔑 **Personalized Wake Word** | Custom keyword enrollment for each user | ✅ |
-| 👤 **Speaker Verification** | Voice embedding-based authentication | ✅ |
-| 🎙 **Real-time Processing** | Low-latency audio capture and analysis | ✅ |
-| 📊 **Live Dashboard** | Streamlit-based real-time monitoring | ✅ |
-| 🎯 **High Accuracy** | 93.70% keyword detection accuracy | ✅ |
-| 💻 **Edge-Ready** | Optimized for CPU and edge deployment | ✅ |
-| 🔒 **Secure** | Multi-factor voice authentication | ✅ |
-| 🛡 **Anti-Spoofing** | Framework for replay detection | 🚧 |
+| **Personalized Wake Word** | Custom keyword enrollment for each user | 
+| **Speaker Verification** | Voice embedding-based authentication | 
+| **Real-time Processing** | Low-latency audio capture and analysis | 
+| **Live Dashboard** | Streamlit-based real-time monitoring | 
+| **High Accuracy** | 93.70% keyword detection accuracy | 
+| **Edge-Ready** | Optimized for CPU and edge deployment | 
+| **Secure** | Multi-factor voice authentication | 
+| **Anti-Spoofing** | Framework for replay detection | 
 
 ### Advanced Features
 - **Noise-Robust Processing**: Advanced noise suppression and VAD
@@ -88,7 +73,7 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -138,13 +123,13 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 ```
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model | Accuracy | Type | Status |
 |-------|----------|------|--------|
-| **Keyword Detection** | **93.70%** | CNN-based | ✅ Trained |
-| **Speaker Verification** | **0.0287 Loss** | MFCC/Embedding | ✅ Trained |
-| **Authentication** | **95%+** | Hybrid | ✅ Working |
+| **Keyword Detection** | **93.70%** | CNN-based | Trained |
+| **Speaker Verification** | **0.0287 Loss** | MFCC/Embedding | Trained |
+| **Authentication** | **95%+** | Hybrid | Working |
 
 ### Real-time Performance
 | Metric | Value |
@@ -156,7 +141,7 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Core Technologies
 | Technology | Purpose |
@@ -183,7 +168,7 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 
 ---
 
-## ⚙ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -210,7 +195,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Enroll a User
 ```bash
@@ -229,7 +214,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🔐 Authentication Logic
+## Authentication Logic
 
 ```python
 if keyword_confidence > threshold and speaker_similarity > threshold:
@@ -240,7 +225,7 @@ else:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 ### Keyword Detection
 
@@ -262,7 +247,7 @@ else:
 
 ---
 
-## 🌍 Applications
+## Applications
 
 * Smart assistants
 * Voice-controlled IoT systems
@@ -273,7 +258,7 @@ else:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Real-time dashboard
 * Multi-user authentication
@@ -285,17 +270,4 @@ else:
 
 ---
 
-## 🛠 Tech Stack
-
-* Python
-* PyTorch
-* Librosa
-* NumPy
-* Scikit-learn
-* SoundDevice
-* ONNX Runtime
-* Matplotlib
-
----
-
-⭐ If you found this project useful, consider giving it a star.
+If you found this project useful, consider giving it a star.
