@@ -168,33 +168,6 @@ This creates a more secure and intelligent voice interface for edge AI applicati
 
 ---
 
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-- Working microphone
-- 4GB+ RAM recommended
-Clone the repository:
-
-### Step 1: Clone Repository
-```bash
-git clone https://github.com/yourusername/adaptive-wakeword.git
-cd adaptive-wakeword
-```
-### Step 2: Create Virtual Environment
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### Step 3: Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Quick Start
 
 ### 1. Enroll a User
