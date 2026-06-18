@@ -1,11 +1,27 @@
-﻿# Virtual Environment
+﻿# Virtual environments (NEVER commit these!)
+.venv/
 venv/
 env/
+ENV/
 __pycache__/
 *.pyc
 *.pyo
 
-# Data files (large)
+# Binary files
+*.dll
+*.so
+*.pyd
+*.exe
+*.msi
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+
+# Data files
 data/google_speech_commands/
 data/voxceleb/
 data/musan/
@@ -17,12 +33,9 @@ data/enrollments/*.wav
 *.wav
 *.mp3
 *.flac
-
-# Model files (large)
-*.pt
-*.pth
-*.h5
-*.hdf5
+*.zip
+*.tar
+*.gz
 
 # IDE
 .vscode/
@@ -34,6 +47,4 @@ Thumbs.db
 *.log
 logs/
 outputs/
-
-# Environment
-.env
+checkpoints/
