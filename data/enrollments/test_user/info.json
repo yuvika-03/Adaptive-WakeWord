@@ -1,0 +1,9 @@
+{
+  "username": "test_user",
+  "num_samples": 5,
+  "feature_type": "mfcc_mean_std",
+  "feature_shape": [
+    26
+  ],
+  "timestamp": 1781766814.382009
+}
